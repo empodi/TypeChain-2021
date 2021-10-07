@@ -1,10 +1,11 @@
 {
-  "name": "TypeChain-2021",
+  "name": "typescript-blockchain-2021",
   "version": "1.0.0",
   "description": "Learning TypeScript by making a BlockChain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \" node dist/index.js\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/empodi/TypeChain-2021/issues"
   },
-  "homepage": "https://github.com/empodi/TypeChain-2021#readme"
+  "homepage": "https://github.com/empodi/TypeChain-2021#readme",
+  "dependencies": {
+    "tsc-watch": "^4.5.0"
+  }
 }
