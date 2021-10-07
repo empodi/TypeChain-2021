@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/empodi/TypeChain-2021#readme",
   "dependencies": {
+    "crypto-js": "^4.1.1",
     "tsc-watch": "^4.5.0"
   }
 }
